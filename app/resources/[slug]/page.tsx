@@ -31,7 +31,7 @@ export default function ResourcePostPage({ params }: { params: { slug: string } 
   return (
     <div className="container py-20">
       <Link href="/resources" className="text-sm text-slate-200 hover:text-white">
-        <- Volver a inteligencia
+           ← Volver a inteligencia 
       </Link>
       <div className="mt-6">
         <p className="text-xs uppercase tracking-[0.3em] text-earth-300">{post.category}</p>
