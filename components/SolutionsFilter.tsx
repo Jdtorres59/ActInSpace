@@ -68,7 +68,7 @@ export function SolutionsFilter() {
                 </p>
                 <h3 className="font-display text-xl text-white">{solution.title}</h3>
                 <p className="text-sm text-slate-200 flex-1">{solution.summary}</p>
-                <span className="text-earth-300 text-sm">Ver detección -></span>
+                <span className="text-earth-300 text-sm">Ver detección →</span>
               </div>
             </Link>
           </motion.div>
