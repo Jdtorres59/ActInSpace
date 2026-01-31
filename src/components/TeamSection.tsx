@@ -89,7 +89,7 @@ type TeamSectionProps = {
 };
 
 export function TeamSection({ className }: TeamSectionProps) {
-  const reduceMotion = useReducedMotion();
+  const reduceMotion = useReducedMotion() ?? false;
 
   return (
     <section id="equipo" className={clsx("py-20 scroll-mt-28", className)}>

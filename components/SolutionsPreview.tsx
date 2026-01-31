@@ -51,7 +51,7 @@ export function SolutionsPreview() {
               <h3 className="font-display text-lg text-white mb-2">{card.title}</h3>
               <p className="text-sm text-slate-200">{card.description}</p>
               <span className="mt-4 inline-flex items-center text-earth-300 text-sm">
-                Ver detección ->
+                Ver detección→
               </span>
             </div>
           </Link>
